@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+    android:id="@+id/speedTextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Velocidad: 0 km/h"
+    android:textSize="24sp"
+    android:gravity="center"
+    android:layout_marginBottom="16dp" />
+
+    <TextView
+    android:id="@+id/rpmTextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="RPM: 0"
+    android:textSize="24sp"
+    android:gravity="center"
+    android:layout_marginBottom="16dp" />
+
+    <ListView
+    android:id="@+id/deviceListView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textViewData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Datos de Velocidad y RPM"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
